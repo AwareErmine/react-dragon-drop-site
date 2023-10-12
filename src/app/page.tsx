@@ -53,21 +53,20 @@ export default function Page() {
           <code className="bg-slate-600 rounded-md p-1 shadow-inner">npm i react-dragon-drag-and-drop</code>
         </center>
 
-        <h1 className="font-extrabold pt-5 pb-3 text-4xl stroke-black">Quickstart</h1>
+        <h1 className="font-extrabold pt-5 text-4xl stroke-black">Quickstart</h1>
 
-        <h2 className="font-extrabold pt-5 text-2xl">Single list</h2>
+        <h2 className="font-extrabold pt-3 text-2xl">Single list</h2>
         <h3 className="font-bold text-xl">With dragons:</h3>
         <Image className="rounded-md" src="/simpleListExample.png" alt={example1} width="1280" height="840" />
         <SimpleListExample dragon={true} />
         
-        <h3>Without:</h3>
+        <h3 className="font-bold mt-4 text-xl">Without dragons:</h3>
         <p><code>dragon</code> is false by default</p>
         <SimpleListExample />
 
-        <h2>Drag between two lists</h2>
+        <h2 className="font-extrabold pt-3 text-2xl">Drag between two lists</h2>
         <Image className="rounded-md" src="/doubleSimpleListExample.png" alt={example2} width="1240" height="1352" />
         <DoubleSimpleListExample />
-        
       </div>
     )
   }
