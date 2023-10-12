@@ -13,7 +13,7 @@
     "next": "^13.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-dragon-drag-and-drop": "^1.0.29",
+    "react-dragon-drag-and-drop": "^1.1.1",
     "zod": "^3.21.4"
   },
   "devDependencies": {
