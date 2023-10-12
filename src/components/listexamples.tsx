@@ -8,7 +8,7 @@ interface listExampleProps {
 }
 export const SimpleListExample: React.FC<listExampleProps> = ({dragon}) => (
     <Dragbox>
-        <ul className="bg-slate-700 min-h-[5rem] rounded-md p-3">
+        <ul className="bg-slate-700 min-h-[5rem] rounded-md p-3 my-4">
             <Draggable dragon={dragon}>
                 <li className="bg-slate-800 rounded-sm p-2 my-1">Thing 1</li>
             </Draggable>
