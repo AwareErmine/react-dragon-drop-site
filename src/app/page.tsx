@@ -50,7 +50,7 @@ export default function Page() {
             React Dragon Drag and Drop
           </h1>
           <h2 className="text-2xl py-3">React drag and drop library with a dragon</h2>
-          <p className="p-3">Note: this project is based on the <Link target="_blank" rel="noopener noreferrer" href="https://developer.mozilla.org/en-US/docs/Web/API/DragEvent#browser_compatibility">poorly-supported</Link> drag and drop web API</p>
+          <p className="p-3">Note: this project is based on the <Link className="underline opacity-80 hover:opacity-100" target="_blank" rel="noopener noreferrer" href="https://developer.mozilla.org/en-US/docs/Web/API/DragEvent#browser_compatibility">poorly-supported</Link> drag and drop web API</p>
           <h3 className="font-bold text-xl">install with npm</h3>
           <code className="bg-slate-600 rounded-md p-1 shadow-inner">npm i react-dragon-drag-and-drop</code>
         </center>
